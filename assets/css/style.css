@@ -1,0 +1,127 @@
+body {
+/*	width: 960px;
+*/	background-image: url(../images/The-mine-shaft-4cb905a18652b_hires.jpg);
+	background-size: cover;
+	margin: 0 auto;
+	font-family: 'Diplomata SC', cursive;
+}
+
+#header {
+	color: white;
+	text-indent: 50px;
+}
+
+#instructions {
+	width: 20%;
+	height: auto;
+	padding: 10px;
+	margin: 10px;
+	background-color:  #ff661a;
+	border-radius: 10px;
+
+}
+
+.button {
+	margin-left: 40px;
+}
+
+#computer {
+	float: left;
+	height: 150px;
+	width: 250px;
+	margin: 10px;
+	color: white;
+	background-color: #802b00;
+	border-radius: 10px;
+
+}
+
+#games {
+	float: left;
+	height: 150px;
+	width: 250px;
+	margin: 10px;
+	background-color: #ff9966;
+	border-radius: 10px;
+	color: black;
+
+}
+
+#score {
+	height: 150px;
+	width: 250px;
+	float: left;
+	margin: 10px;
+	background-color: #ffbf80;
+	border-radius: 10px;
+	color: black;
+
+}
+
+#center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#crystal1 {
+	clear: both;
+	float: left;
+	height: 200px;
+	width: 200px;
+	padding: 20px;
+	margin: 10px;
+	background-image: url(../images/78a7ed21a124bd0a12f674095eccafe0.jpg);
+	background-size: cover;
+	background-position: 50% 50%;
+	border-radius: 5px;
+
+}
+
+#crystal2 {
+	float: left;
+	height: 200px;
+	width: 200px;
+	padding: 20px;
+	margin: 10px;
+	background-image: url(../images/bismuth-crystal-1200x880.jpg);
+	background-size: cover;
+	background-position: 10% 50%;
+	border-radius: 5px;
+
+}
+
+#crystal3 {
+	float: left;
+	height: 200px;
+	width: 200px;
+	padding: 20px;
+	margin: 10px;
+	background-image: url(../images/248be7f73ddea6820b344d3ac1dcc115.jpg);
+	background-size: cover;
+	background-position: 50% 70%;
+	border-radius: 5px;
+
+}
+
+#crystal4 {
+	float: left;
+	height: 200px;
+	width: 200px;
+	padding: 20px;
+	margin: 10px;
+	background-image: url(../images/The_Searchlight_Rhodochrosite_Crystal.jpg);
+	background-size: cover;
+	background-position: 30% 50%;
+	border-radius: 5px;
+
+}
+
+#bottom {
+	clear: both;
+	height: 100px;
+	background-color: #ff9966;
+	border-radius: 5px;
+	width: 90%;
+}
+

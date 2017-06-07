@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>week 4 game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- 	<link href="https://fonts.googleapis.com/css?family=Diplomata+SC" rel="stylesheet">
+ --></head>
+<body>
+
+<div class="container">
+	<div id=header>
+		<h1>Crystal Collector</h1>
+	</div>
+
+	<div id="instructions">
+<!-- 		<p>You will be given random number at the beginning of the game.</p>
+		<p>There are four crystals below. By cicking on a crystal you will add a specific amount of points to your total score.</p>
+		<p>You win by matching your total score to the number picked randomly by the computer. You lose if your score goes above the computer's number.</p>
+		<p>The value of each crystal is hidden until you click on it.</p>
+		<p>Each time the game starts the crystal gets new value.</p> -->
+
+		<!-- Button trigger modal -->
+		<button type="button" class="button btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
+		  Instructions
+		</button>
+
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="myModalLabel">Good Luck</h4>
+		      </div>
+		      <div class="modal-body">
+		        <p>You will be given random number at the beginning of the game.</p>
+		        		<p>There are four crystals below. By cicking on a crystal you will add a specific amount of points to your total score.</p>
+		        		<p>You win by matching your total score to the number picked randomly by the computer. You lose if your score goes above the computer's number.</p>
+		        		<p>The value of each crystal is hidden until you click on it.</p>
+		        		<p>Each time the game starts the crystal gets new value.</p>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		        <button type="button" class="btn btn-primary">Save changes</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	</div>
+
+		<div class="modal fade" id="winModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="myModalLabel">Good Luck</h4>
+		      </div>
+		      <div class="modal-body">
+		        <p>YOU WIN!</p>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<div class="modal fade" id="loseModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="myModalLabel">Good Luck</h4>
+		      </div>
+		      <div class="modal-body">
+				<p>You Lose...</p>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+
+
+	<div id="computer">
+		<h2>Computer Number... <span id="number"></span></h2>
+	</div>
+
+	<div id="games">
+		<h3>Wins: <span id="wins"></span></h3>
+			<br>
+		<h3>Losses: <span id="losses"></span></h3>
+	</div>
+
+	<div id="score">
+				<h3>Your Score:</h3>
+		<div id="center">
+			<h2 id="totalscore"></h2>
+		</div>
+	</div>
+
+	<div id="crystal1" class="crystal"></div>
+	<div id="crystal2" class="crystal"></div>
+	<div id="crystal3" class="crystal"></div>
+	<div id="crystal4" class="crystal"></div>
+
+	<div id="bottom"></div>
+
+</div>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="assets/javascript/javascript.js"></script>
+
+</body>
+</html>
